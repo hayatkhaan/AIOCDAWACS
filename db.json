@@ -1,0 +1,151 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+  "customer": [
+    {
+      "id": 1,
+      "name": "hayath",
+      "area": "Chennai",
+      "creditlimit": "25000"
+    },
+    {
+      "id": 2,
+      "name": "aaif",
+      "area": "Chennai",
+      "creditlimit": 10000
+    },
+    {
+      "name": "Anirudh",
+      "area": "Mumbai",
+      "creditlimit": "",
+      "id": 3
+    },
+    {
+      "name": "Senthil",
+      "area": "Chennai",
+      "creditlimit": "",
+      "id": 3
+    },
+    {
+      "name": "Ayzar",
+      "area": "Hydrabad",
+      "creditlimit": "600",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Nadeem",
+      "area": "Chennai",
+      "creditlimit": "5000000"
+    }
+  ],
+  "user": [
+    {
+      "id": "admin",
+      "name": "admin",
+      "role": "admin",
+      "email": "admin@pharmarack.com",
+      "mobile": "767788989",
+      "password": "admin",
+      "address": "add1,add2",
+      "isactive": true
+    },
+    {
+      "id": "anirudh",
+      "name": "Anirudh",
+      "email": "Anirudh@pharmarack.com",
+      "password": "welcome123",
+      "mobile": "",
+      "address": "Mumbai",
+      "role": "supervisor",
+      "isactive": true
+    },
+    {
+      "id": "hayath",
+      "name": "hayath",
+      "email": "hayath@pharmarack.com",
+      "password": "123",
+      "mobile": "",
+      "address": "Chennai",
+      "role": "Development Team",
+      "isactive": true
+    },
+    {
+      "id": "aarif",
+      "name": "aarif uwaise",
+      "email": "aarif@pharmarack.com",
+      "password": "123",
+      "mobile": "899900",
+      "address": "Chennai",
+      "role": "Business Team",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "manager",
+      "name": "Manager"
+    },
+    {
+      "code": "supervisor",
+      "name": "supervisor"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true
+    },
+    {
+      "role": "manager",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": false
+    },
+    {
+      "role": "supervisor",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": false,
+      "havedelete": false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveadd": false,
+      "haveedit": false,
+      "havedelete": false
+    }
+  ]
+
+}

@@ -1,0 +1,79 @@
+.topbarStyle {
+    height: 40px;
+  }
+  .logoStyle {
+    width: 200px;
+    height: 70px;
+  }
+  .gridStyle1 {
+    width: 460px;
+    width: 50%;
+  }
+  
+  .blueGradient {
+    background: rgb(24, 63, 205);
+    background: linear-gradient(
+      90deg,
+      rgba(24, 63, 205, 1) 0%,
+      rgba(20, 57, 187, 1) 50%,
+      rgba(18, 49, 166, 1) 100%
+    );
+  }
+  .cardStyleLeft {
+    padding: 0 4px 0 10px;
+  }
+  
+  .cardStyleRight {
+    padding: 0 10px 0 4px;
+  }
+  
+  .textStyle {
+    margin: 4px 0 0 10px;
+  }
+  
+  .iconStyle {
+    margin: 2px 0 0 8px;
+    width: 25px;
+  }
+  
+  .buttonStyle{
+    height: 25px;
+    width: 25px;
+  }
+  
+  .buttonIconStyle {
+    width: 20px;
+  }
+  
+  .approveBtn{
+  position: relative;
+  top: -3px;
+  left: -20px;
+  }
+  
+  .rejectBtn{
+    position: relative;
+    top: -3px;
+    left: -10px;
+  }
+  
+  .editBtn{
+    position: relative;
+    top: -3px;
+    left: 0px;
+  }
+  
+  .ag-theme-quartz {
+    /* bright green, 10% opacity */
+    --ag-selected-row-background-color: rgba(43, 89, 243, 0.308);
+  }
+  
+  .orangeGradient {
+    background: rgb(237, 66, 37) !important;
+    background: linear-gradient(
+      90deg,
+      rgba(237, 66, 37, 1) 0%,
+      rgba(250, 173, 47, 1) 50%,
+      rgba(237, 66, 37, 1) 100%
+    ) !important;
+  }
