@@ -40,6 +40,19 @@ const routes = [
           }
         ],*/
       },
+      {
+        path: "/Manufacture-Mapping",
+        name: "Manufacture-Mapping",
+        icon: <FaClone />,
+        exact: true,
+          /*{subRoutes: [
+          {
+            path: "/user",
+            name: "Reports-2 ",
+            icon: <FaFileDownload />,
+          }
+        ],*/
+      },
         /*{{
         path: "/settings/2fa",
         name: "Reports-3",

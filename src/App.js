@@ -27,6 +27,7 @@ import Analytics from "./pages/Analytics";
 import Order from "./pages/Order";
 import Saved from "./pages/Saved";
 import Setting from "./pages/Setting";
+import ManufactureMapping from './pages/ManufactureMapping';
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
             <Route path="/users" element={<SideBar><Users /></SideBar>} />
             <Route path="/messages" element={<SideBar><Messages /></SideBar>} />
             <Route path="/analytics" element={<SideBar><Analytics /></SideBar>} />
+            <Route path="/Manufacture-Mapping" element={<SideBar><ManufactureMapping /></SideBar>} />
             <Route path="/file-manager" element={<SideBar><FileManager /></SideBar>} />
             <Route path="/order" element={<SideBar><Order /></SideBar>} />
             <Route path="/saved" element={<SideBar><Saved /></SideBar>} />
